@@ -1,0 +1,122 @@
+.main {
+  margin: 0 auto;
+  overflow: hidden;
+  width: 85dvw;
+  max-width: 400px;
+  height: 650px;
+  border-width: 10px;
+  border-style: solid;
+  border-color: #800080;
+  border-radius: 25px;
+}
+
+div {
+  background-color: #FFFFFF;
+}
+
+.page {
+  height: 600px;
+  overflow-y: auto;
+  scrollbar-width: thin;
+  scrollbar-color: #800080 #202020;
+  background-color: #FFFFFF;
+  color: #000000;
+}
+
+.bar {
+  height: 50px;
+  background-color: #FFFFFF;
+  margin: 10px auto;
+}
+.bar li {
+  list-style-type: none;
+  float: left;
+  width: 25%;
+  margin: 0 auto;
+}
+
+.switch_profile {
+  background-color: #760076;
+  margin: 0px 0px 0px 15px;
+}
+
+.page::-webkit-scrollbar {
+  -webkit-appearance: none;
+}
+
+.page::-webkit-scrollbar:vertical {
+  width: 12px;
+}
+
+.page::-webkit-scrollbar:horizontal {
+  height: 12px;
+}
+
+.page::-webkit-scrollbar-thumb {
+  background-color: #800080;
+}
+
+.page::-webkit-scrollbar-track {
+  background-color: #202020;
+}
+
+.post {
+  padding: 5px;
+  margin: 10px 5px;
+}
+
+.profile_picture {
+  border-radius: 50%;
+}
+
+.page h2,
+.page h3,
+.page h4,
+.page p {
+  color: #000000;
+}
+
+.bio {
+  border-color: #7c0a7f;
+  border-style: solid;
+  padding: 0px 5px 0px 10px;
+}
+
+.page h4 {
+  padding: 0px 0px 0px 10px;
+}
+
+.page h1.header {
+  background-color: #800080;
+  padding: 0px 10px 15px 10px;
+  margin: 0px auto auto;
+  color: #FFFFFF;
+  
+}
+
+.page a {
+  text-decoration: none;
+  color: #000000;
+  background-color: #FFFFFF;
+  border-bottom-color: #FFFFFF;
+}
+
+a.tag {
+  color: #0000FF;
+  background-color: inherit;
+  border-bottom-color: #FFFFFF;
+}
+
+a.edit_button {
+  background-color: #7c0a7f;
+  border-radius: 10px;
+  color: #FFFFFF;
+  margin: 10px;
+  padding: 0px 10px 0px 10px;
+}
+
+a.logo {
+  background-color: #800080;
+  border-bottom-color: #800080;
+  color: #FFFFFF;
+}
