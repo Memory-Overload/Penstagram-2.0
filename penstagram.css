@@ -4,13 +4,14 @@
   width: 85dvw;
   max-width: 400px;
   height: 650px;
+  background-color: #800080;
   border-width: 10px;
   border-style: solid;
   border-color: #800080;
   border-radius: 25px;
 }
 
-div {
+.page div {
   background-color: #FFFFFF;
 }
 
@@ -32,6 +33,7 @@ div {
   list-style-type: none;
   float: left;
   width: 25%;
+  text-align: center;
   margin: 0 auto;
 }
 
@@ -63,6 +65,7 @@ div {
 .post {
   padding: 5px;
   margin: 10px 5px;
+  background-color: #FFFFFF;
 }
 
 .profile_picture {
