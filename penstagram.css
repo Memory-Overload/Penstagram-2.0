@@ -29,6 +29,7 @@
   background-color: #FFFFFF;
   margin: 10px auto;
 }
+
 .bar li {
   list-style-type: none;
   float: left;
@@ -79,6 +80,10 @@
   color: #000000;
 }
 
+.page h2 {
+  text-align: center;
+}
+
 .bio {
   border-color: #7c0a7f;
   border-style: solid;
@@ -94,7 +99,6 @@
   padding: 0px 10px 15px 10px;
   margin: 0px auto auto;
   color: #FFFFFF;
-  
 }
 
 .page a {
@@ -122,4 +126,34 @@ a.logo {
   background-color: #800080;
   border-bottom-color: #800080;
   color: #FFFFFF;
+}
+
+.page .left_text {
+  background-color: #c6c7cd;
+  color: #000000;
+  padding: 10px;
+  margin-left: 10px;
+  margin-bottom: 10px;
+  max-width: 66%;
+  float: left;
+  border-radius: 15px;
+  position: relative;
+  clear: both;
+}
+
+.page .right_text {
+  background-color: #800080;
+  color: #FFFFFF;
+  padding: 10px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  max-width: 66%;
+  float: right;
+  border-radius: 15px;
+  position: relative;
+  clear: both;
+}
+
+.hide {
+  display: none;
 }
