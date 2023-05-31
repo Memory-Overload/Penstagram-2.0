@@ -5,7 +5,7 @@ current_user = "raine"
 bios = [
     ["KING", "KINGOFDEMONS", "My dad's corpse", "Awf. 2021", "A squirmy lil fella", "2", "53k"],
     ["scare bear enthusiast", "skara4real", "a hole", "Ath. 2022", "flyer derby > grudgby. fight me over it.", "285", "2k"],
-    ["nice penstagram microcelebrity", "amberamberamber", "in denial", "Dis. 2019", "she/her | making mewtube vids about life n stuff", "314", "5k"],
+    ["niche penstagram microcelebrity", "amberamberamber", "in denial", "Dis. 2019", "she/her | making mewtube vids about life n stuff", "314", "5k"],
     ["derwin", "_derwin", "Not doxxing myself", "Dis. 2019", "Proving bard magic can be cool", "579", "403"],
     ["Lemons aka Katya (she/her)", "FreeTheLemons", "posting fic on OFW", "Dis. 2015", "writer of stories. i feed on angst.", "489", "11k"],
     ["Steve Tholomule", "steve", "The Heart", "Awk. 2016", "Yo. I'm Steve.", "2", "-2,147,483,648"],
