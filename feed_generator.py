@@ -1,4 +1,4 @@
-import re
+import shared_functions
 
 current_user = "raine"
 
@@ -42,16 +42,11 @@ string: str = f"""
   </p>"""
 
 for author, message, time in posts:
-    tags: list = re.findall(r"@[\w._-]+(?<!.[._-]$)", message) # can't end with ., _, or -
     post_to_add = f"""
   <p class="post"><span class="post_author"><b><a href="#{author}_profile_{current_user}" rel="nofollow">{author}</a></b> {time}<br /></span>
     {message}
   </p>"""
-    
-    if tags:  # empty lists eval to falsey, but non-empty lists are truthy
-        for tag in tags:
-          post_to_add = post_to_add.replace(tag, f"""<a href="#{tag[1:]}_profile_{current_user}" class="tag" rel="nofollow">{tag}</a>""")
-    string += post_to_add
+    string += shared_functions.replace_tags(post_to_add, current_user)
 string += f"""
 </div>"""
 
