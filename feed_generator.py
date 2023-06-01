@@ -1,10 +1,11 @@
 import shared_functions
 
-current_user: str = "raine"
+current_user: str = "mo"
 
 posts = [
     # [author, message, time]
-    [],
+    ["MemoryOverload", "This is an example", "12:00 AM"],
+    ["MemoryOverload", "Subscribe to @DanaTerrace", "12:00 AM"]
 ]
 
 string: str = f"""
