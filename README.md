@@ -41,7 +41,7 @@ Inside `main` is all of the `page`s. Each page has a unique id, usually in the f
 
 This is where anchors come in to play. Since this project is replicating Penstagram, and you can't just scroll through every single page in existence in one cotinuous stream, you have to break things up. This is why anchors are so important, as they both allow the user to select where they want to go, and tell the app what location the user just requested.
 
-If you look at the top of each div with a class of `page`, you will see an anchor tag just above them with a name that corresponds to the content of the page. this is how users can jump around Penstagram 2.0 instead of having to scroll through every page on the app.
+If you look at the top of each div with a class of `page`, you will see an anchor tag just above them with a name that corresponds to the content of the page. This is how users can jump around Penstagram 2.0 instead of having to scroll through every page on the app.
 
 ### CSS
 The easiest way to describe [Cascading Style Sheets (CSS)](https://en.wikipedia.org/wiki/CSS) is that it looks at the HTML code it is associatde with and changes how certain elements appear on screen.
