@@ -4,7 +4,7 @@ current_user: str = "raine"
 
 posts = [
     # [author, message, time]
-    []
+    [],
 ]
 
 string: str = f"""

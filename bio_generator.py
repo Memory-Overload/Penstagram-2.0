@@ -4,13 +4,7 @@ current_user = "raine"
 
 bios = [
   # [name, handle, location, date, description, following, followers]
-    ["KING", "KINGOFDEMONS", "My dad's corpse", "Awf. 2021", "A squirmy lil fella", "2", "53k"],
-    ["scare bear enthusiast", "skara4real", "a hole", "Ath. 2022", "flyer derby > grudgby. fight me over it.", "285", "2k"],
-    ["niche penstagram microcelebrity", "amberamberamber", "in denial", "Dis. 2019", "she/her | making mewtube vids about life n stuff", "314", "5k"],
-    ["derwin", "_derwin", "Not doxxing myself", "Dis. 2019", "Proving bard magic can be cool", "579", "403"],
-    ["Lemons aka Katya (she/her)", "FreeTheLemons", "posting fic on OFW", "Dis. 2015", "writer of stories. i feed on angst.", "489", "11k"],
-    ["Steve Tholomule", "steve", "The Heart", "Awk. 2016", "Yo. I'm Steve.", "2", "-2,147,483,648"],
-    ["Bo Jangles", "bo-lieve", "movin'", "Fea. 2018", "I know.", "68", "381"],
+  [],
 ]
 
 for name, handle, location, date, description, following, followers in bios:
