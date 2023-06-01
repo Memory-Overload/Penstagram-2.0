@@ -58,6 +58,9 @@ There is nothing special about that paragraph, so let's add some color to make i
 
 (Code: ```<p style="color:green;">Hi, I'm in a paragraph tag, but now I have <em>style</em>!</p>```)
 
+[EDIT: Since GitHub doesn't like fun, colorful text, the paragraph above doesn't appear as green. Just imagine the text is green. Ok thanks, bye.]
+
+
 Notice how the second `<p>` has that `style="color:green;"` thing in it? That is CSS in action.
 
 ### Python
