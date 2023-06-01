@@ -3,6 +3,7 @@ import shared_functions
 current_user = "raine"
 
 bios = [
+  # [name, handle, location, date, description, following, followers]
     ["KING", "KINGOFDEMONS", "My dad's corpse", "Awf. 2021", "A squirmy lil fella", "2", "53k"],
     ["scare bear enthusiast", "skara4real", "a hole", "Ath. 2022", "flyer derby > grudgby. fight me over it.", "285", "2k"],
     ["niche penstagram microcelebrity", "amberamberamber", "in denial", "Dis. 2019", "she/her | making mewtube vids about life n stuff", "314", "5k"],
