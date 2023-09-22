@@ -105,4 +105,3 @@ def create_private_message(html_lines: list, profiles_to_create: dict,
   html_lines.append("""
     </p>""")
   insert_navbar(html_lines, user)
-  
