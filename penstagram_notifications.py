@@ -1,0 +1,5 @@
+notifications = {
+  "eda": [],
+  "darius": [],
+  "raine": [],
+}
