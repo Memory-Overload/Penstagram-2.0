@@ -213,7 +213,15 @@ feeds = {
     ["rainey.day", "10:04 AM", "But then <i>it</i> happened."],
     ["rainey.day", "10:05 AM", "I still get nightmares about that day."],
     ["FreeTheLemons", "10:07 AM", "@rainey.day How many snails for you to the Monarch In Orange?"],
-    ["rainey.day", "10:05 AM", "None, cause I'm never doing that cursed production. I enjoy having my soul inside my body, thank you very much."],
+    ["rainey.day", "10:08 AM", "None, cause I'm never doing that cursed production. I enjoy having my soul inside my body, thank you very much."],
+    ["FreeTheLemons", "10:08 AM", "@rainey.day :( ur no fun"],
+    ["amberamberamber", "12:19 AM", "if @BADGIRLCOVEN is our mom, does that make @KINGOFDEMONS our brother???"],
+    ["BADGIRLCOVEN", "12:22 AM", "That's not how that works, kid. Like, at all."],
+    ["BADGIRLCOVEN", "12:22 AM", "Also, I'm not even your mom, technically. Raine and I haven't tied the knot yet, and probably never will."],
+    ["amberamberamber", "12:24 AM", "dang, I thought that would be cool to brag about."],
+    ["BADGIRLCOVEN", "12:25 AM", "Yeah, well that's the way the spookie crumbles sometimes."],
+    ["BADGIRLCOVEN", "2:17 AM", "WHERE THE <i><b>HOOT</b></i> DID MY APPLE BLOOD GO?!"],
+    ["steve", "3:00 AM", "steve."],
   ]
   # endregion: raine feed
 }
@@ -321,6 +329,9 @@ profiles = {
   "skara4real": ["scare bear enthusiast", "a hole", "Fea. 2018", "flyer derby for the @EmeraldEntrails.", "285", "2.3k"],
   "_derwin": ["derwin", "no", "Fea. 2019", "Bard magic is cool.", "581", "403"],
   "bo-lieve": ["Bo Jangles", "movin'", "Fea. 2018", "I know. do you?", "69", "386"],
+  "amberamberamber": ["giraffe truther", "in denial", "Dis. 2019", "she/her | i am cringe, but i am free", "314", "15.9k"],
+  "steve": ["The Best Character In The Show", "My Heart", "Awk. 2020", "My love language is shoulder pats.", "1", "TREE(3)"],
+  "KINGOFDEMONS": ["KC", "My Dad's Corpse", "Awf. 2021", "Squirmy lil fella trying to fill some titan-sized shoes.", "2", "68k"],
 }
 # endregion: profiles data
 
