@@ -29,7 +29,7 @@ def create_post(html_lines: list[str], user: str, handle: str, time: str, messag
         {replace_tags(message, user, handles)}
       </p>""")
 
-def insert_header(html_lines: list[str], link: str):
+def insert_header(html_lines: list[str], link: str, logo_link: str):
   """Inserts a header containing the Pesntagram 2.0 logo at the top of the page.
     ### Params
     - `html_lines` is the array that will be written to the final html file
@@ -39,7 +39,7 @@ def insert_header(html_lines: list[str], link: str):
     <a name="{link}" id="{link}" rel="nofollow"></a>
     <div class="page">
       <h1 class="header">
-        <a class="logo" href="#{link}" rel="nofollow">Penstagram<sub><sub>2.0</sub></sub></a>
+        <a class="logo" href="#{logo_link}" rel="nofollow">Penstagram<sub><sub>2.0</sub></sub></a>
       </h1>""")
 
 def insert_navbar(html_lines: list[str], user: str):
@@ -93,15 +93,21 @@ def create_profile(html_lines: list[str], username_of: dict, profiles_to_create,
     </div>""")
 
 def create_private_message(html_lines: list, profiles_to_create: dict, 
-                           user: str, other_user: str, message_history: list[tuple], link: str):
+                           user: str, other_user: str, message_history: list[tuple]):
+  """Creates a series of private messages between two accounts.
+    ### Params
+    - `html_lines` is the array that will be written to the final HTML file.
+    - `prfolies_to_create` is a set of profiles. This is for if an account is tagged in a PM.
+    - `user` is the current logged in user. They are on the right-hand side of the conversation.
+    - `other_user` is the user on the left-hand side of the conversation.
+    - `message_history` is a list of tuples. Each tuple contains a side and the message itself."""
+  
   profiles_to_create[user].add(other_user)
-  insert_header(html_lines, link)
   html_lines.append(f"""
-    <h2><a href="#{other_user}_profile_{user}">{other_user}</a></h2><br/>
+    <h2><a href="#{other_user}_profile_{user}">{other_user}</a></h2><hr>
     <p>""")
   for side, message in message_history:
     html_lines.append(f"""
       <span class="{'right' if side else 'left'}_text">{replace_tags(message, user, profiles_to_create[user])}</span>""")
   html_lines.append("""
     </p>""")
-  insert_navbar(html_lines, user)

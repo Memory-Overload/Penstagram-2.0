@@ -8,11 +8,11 @@
 
 import copy
 
-from penstagram_feeds import feeds
+from penstagram_feeds import *
 from penstagram_helpers import *
-from penstagram_messages import messages
-from penstagram_notifications import notifications
-from penstagram_trending import for_you, trending, news, sports
+from penstagram_messages import *
+from penstagram_notifications import *
+from penstagram_trending import *
 
 # region: initialize html, create head, and start body
 html_lines = ["""<html>
@@ -60,8 +60,7 @@ for user in username_of:
   
   html_lines.append(f"\n\n\t\t<!-- FEED FOR {user.upper()} -->\n")
   profiles_to_create[user] = set()
-  link = user
-  insert_header(html_lines, link)
+  insert_header(html_lines, user, user)
   html_lines.append("""
       <p>
         <a href="#login" class="switch_profile" rel="nofollow">SWITCH PROFILE</a>
@@ -80,7 +79,7 @@ for user in username_of:
   for section, data in sections:
     html_lines.append(f"\n\n\t\t<!-- {section.upper()} FOR {user.upper()} -->\n")
     link = f"{user}_{section.replace(' ', '_').lower()}"
-    insert_header(html_lines, link)
+    insert_header(html_lines, link, user)
     html_lines.append(f"""      <div>
         <ul class="bar">
           <li><a href="#{user}_for_you">For You</a></li>
@@ -97,7 +96,7 @@ for user in username_of:
   
   link = f"{user}_notifications"
   html_lines.append(f"\n\n\t\t<!-- NOTIFICATION FOR {user.upper()} -->\n")
-  insert_header(html_lines, link)
+  insert_header(html_lines, link, link)
   for handle, time, message in notifications[user]:
     profiles_to_create[user].add(handle)
     create_post(html_lines, user, handle, time, message, profiles_to_create[user])
@@ -105,13 +104,25 @@ for user in username_of:
   html_lines.append(f"\n\n\t\t<!-- END NOTIFICATIONS FOR {user.upper()} -->\n")
   
   link = f"{user}_messages"
+  messages_link = f"{user}_messages"
   html_lines.append(f"\n\n\t\t<!-- MESSAGES FOR {user.upper()} -->\n")
-  insert_header(html_lines, link)
+  insert_header(html_lines, link, link)
+  html_lines.append("""
+      <h2>Select a conversation.</h2>""")
+  
+  # create list of convos to select from
   for other_user in messages[user]:
-    message_history = messages[user][other_user]
-    print(other_user, messages[user][other_user])
-    create_private_message(html_lines, profiles_to_create, user, other_user, message_history, link)
+    html_lines.append(f"""
+        <h4><a href="#{other_user}_convo_{user}">{other_user}</a></h4><hr>""")
   insert_navbar(html_lines, user)
+  
+  # create individual page for each convo
+  for other_user in messages[user]:
+    link = f"{other_user}_convo_{user}"
+    insert_header(html_lines, link, messages_link)
+    message_history = messages[user][other_user]
+    create_private_message(html_lines, profiles_to_create, user, other_user, message_history)
+    insert_navbar(html_lines, user)
   html_lines.append(f"\n\n\t\t<!-- END MESSAGES FOR {user.upper()} -->\n")
 # endregion: generate html for users feed, notifications, etc.
 
@@ -122,7 +133,7 @@ for user in username_of:
   for handle in current_profiles[user]:
     if handle:
       try:
-        create_profile(html_lines,username_of, profiles_to_create, user, handle)
+        create_profile(html_lines, username_of, profiles_to_create, user, handle)
       except KeyError:
         print(f"\t\tERROR: Missing profile for handle '{handle}' (User: {user})\n")
       # check for handles mentioned in profiles but not anywhere else (i.e., UWM and SNMH)

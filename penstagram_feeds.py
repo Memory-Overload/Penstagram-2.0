@@ -1,6 +1,4 @@
 feeds = {
-  
-  # region: eda feed
   "eda": [
     ["BADGIRLCOVEN", "10:09 AM", "Third mug of appleblood downed. Time to rob some schmucks blind."],
     ["rainey.day", "10:11 AM", "Eda, you realize these are monitored, right?"],
@@ -18,9 +16,6 @@ feeds = {
     ["BADGIRLCOVEN", "12:28 PM", "screw this time for apple blood #4."],
     ["HOOOOOOOOOT", "6:66 PM", "SOULS OF THE DAMNED ARE YUMMY HOOT HOOT"],
   ],
-  # endregion: eda feed
-
-  # region: darius feed
   "darius": [
     ["goo-daddy", "9:21 AM", "Never trust a man who says a dead body is talking to him and him alone. Unless it's me. Always trust me."],
     ["rainey.day", "9:35 AM", "Just had a very relaxing tea with my breakfast. Time to start the day!"],
@@ -60,9 +55,6 @@ feeds = {
     ["chilly.lily", "6:42 PM", "im sleppy. couchll do nice."],
     ["RAISEDBYDIREWOLVES", "8:06 PM", "Stole a not dog from Snapdragon. ^_^"],
   ],
-  # endregion: darius feed
-  
-  # region: raine feed
   "raine": [
     ["rainey.day", "2:07 AM", "Just did a line of rosin powder. Let's get this money, bards."],
     ["skara4real", "8:24 AM", "Hot Take: Violas are better than violins in every aspect."],
@@ -91,6 +83,4 @@ feeds = {
     ["BADGIRLCOVEN", "2:17 AM", "WHERE THE <i><b>HOOT</b></i> DID MY APPLE BLOOD GO?!"],
     ["steve", "3:00 AM", "steve."],
   ]
-  # endregion: raine feed
-
 }

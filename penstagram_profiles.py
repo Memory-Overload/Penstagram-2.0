@@ -2,7 +2,7 @@ profiles = {
   "BADGIRLCOVEN": ["Owl Lady", "Owl Shack", "Scab. 2017", "Formerly wanted criminal, now Headmaster at @UWM", "12", "31.4k"],
   "goo-daddy": ["Darius D.", "noyb", "Jaw. 2017", "Abominations > People", "35", "20.6k"],
   "rainey.day": ["Raine Whispers", "The Owl House", "Fea. 2020", "Hello!", "1", "16.3k"],
-  "goodWitchLuzura": ["<i>Luz</i>", "Flip-flopping CT and the BI", "Jaw. 2021", 
+  "goodWitchLuzura": ["<i>✨🌟Luz🌟✨</i>", "Flip-flopping CT and the BI", "Jaw. 2021", 
   "Sweet Potato of @WitchChick128<br/> @veeeeeee's sister.<br/>the reports of my death were minorly exaggerated", "73", "98k"],
   "goops": ["Gus Porter", "UWM Branch 19", "Sep. 2017", "Founder of the DR-HR Exchange Program", "306", "1.5k"],
   "em_ira": ["The Older Blight Twin", "Your Mom's Bedroom", "Parch 2016", 
@@ -28,4 +28,8 @@ profiles = {
   "amberamberamber": ["giraffe truther", "in denial", "Dis. 2019", "she/her | i am cringe, but i am free", "314", "15.9k"],
   "steve": ["The Best Character In The Show", "My Heart", "Awk. 2020", "My love language is shoulder pats.", "1", "TREE(3)"],
   "KINGOFDEMONS": ["KC", "My Dad's Corpse", "Awf. 2021", "Squirmy lil fella trying to fill some titan-sized shoes.", "2", "68k"],
+  "Hexside": ["Hexside Schoolf of Magic and Demonics", "S. 314 Ligament Lane", "Awk. 2012", "The official account for the one and only Hexside School of Magic and Demonics. Go Banshees!", "42", "2.7k"],
+  "HexsideFreePress": ["Hexside Free Press", "Hexside", "Fea. 2018", "The premier news source for everything going down in Banshee Country.", "9", "473"],
+  "BBC": ["Boiling Broadcast Corporation", "CB, Online 24/7", "Jaw. 2009", "The BBC is the Isle's leading public service broadcaster.", "108", "53k"],
+  "TheDailyDirt": ["The Daily Dirt", "The Streets", "Awk. 2016", "Real news for real people.", "0", "14k"],
 }
