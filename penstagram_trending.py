@@ -31,8 +31,8 @@ for_you = {
   "raine": [
     ["BADGIRLCOVEN", "3:29 AM", "need me some bard booty."],
     ["chilly.lily", "2:00 9M", "New Ink Reviews w/ Lily episode out! This vid we go over a new edible ink crafted by Zevon and Sons. (Spolier: It tastes like goreberries. 3/10 Would not recommend.)"],
-    ["goodWitchLuzura", "7:14 PM", "@KINGOFDEMONS's and I just found another one of his glyphs! \(^o^)/"],
-    ["goo-daddy", "8:46 PM", "This hack is adorably inept with anything not related to Abominations."]
+    ["goodWitchLuzura", "7:14 PM", "@KINGOFDEMONS and I just found another one of his glyphs! \(^o^)/"],
+    ["goo-daddy", "8:46 PM", "This hack is adorably inept with anything not related to Abominations."],
   ]
 }
 
@@ -54,13 +54,16 @@ trending = {
 
 news = {
   "eda": [
-    ["HexsideFreePress", "9:05 AM", "Reports are coming in of a pixie infestation in the east wing. All stuents and faculty have been advised to stay off the premises until further notice."]
+    ["HexsideFreePress", "9:05 AM", "Reports are coming in of a pixie infestation in the east wing. All stuents and faculty have been advised to stay off the premises until further notice."],
+    ["PerryPorter", "10:27 AM", "Terra Snapdragon, the former head of the Plant Coven, has been arrested in her Palm Stings home. The charges leveed against her include child endangerment, murder, and handling salmon in suspicious circumstances."],
+    ["GlandusGazette", "4:30 PM", "Faust has died. He was attacked by a wild griffin."],
+    ["41.6C.69.65.6E.73.46.72.6F.6D.4D.61.72.73", "6:28 PM", "59 6F 20 73 6F 20 77 65 20 6A 75 73 74 20 66 6F 75 6E 64 20 74 68 69 73 20 67 75 79 20 63 61 6C 6C 65 64 20 4A 61 63 6F 62 2C 20 61 6E 64 20 68 65 20 6B 65 65 70 73 20 73 63 72 65 61 6D 69 6E 67 20 61 62 6F 75 74 20 68 6F 77 20 77 65 20 61 72 65 20 67 6F 69 6E 67 20 74 6F 20 22 73 74 65 61 6C 20 68 69 73 20 74 65 65 74 68 22 20 6F 72 20 73 6F 6D 65 74 68 69 6E 67 3F 20 43 61 6E 20 79 6F 75 20 67 75 79 73 20 6D 61 6B 65 20 68 69 6D 20 73 68 75 74 20 75 70 3F"],
   ],
   "darius": [
-    ["BBC", "10:10 AM", "BREAKING: Odalia Blight, formerly of Blight Industries, has been sentenced to 10 years of listening to Hooty talk about his favorite bugs. Pundits have stated that they believe the sentence to be 'cruel and unusual'."]
+    ["BBC", "10:10 AM", "BREAKING: Odalia Blight, formerly of Blight Industries, has been sentenced to 10 years of listening to Hooty talk about his favorite bugs. Pundits have stated that they believe the sentence to be 'cruel and unusual'."],
   ],
   "raine": [
-    ["TheDailyDirt", "12:00 PM", "Giraffes: Menace or Misunderstood? Read the new article by Hingle McCringleberry about everyone's favorite child-eating demon."]
+    ["TheDailyDirt", "12:00 PM", "Giraffes: Menace or Misunderstood? Read the new article by Hingle McCringleberry about everyone's favorite child-eating demon."],
   ],
 }
 

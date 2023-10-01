@@ -97,9 +97,9 @@ for user in username_of:
   link = f"{user}_notifications"
   html_lines.append(f"\n\n\t\t<!-- NOTIFICATION FOR {user.upper()} -->\n")
   insert_header(html_lines, link, link)
-  for handle, time, message in notifications[user]:
-    profiles_to_create[user].add(handle)
-    create_post(html_lines, user, handle, time, message, profiles_to_create[user])
+  for notification in notifications[user]:
+    html_lines.append(f"""
+      <p class="post">{replace_tags(notification, user, profiles_to_create[user])}</p><hr>""")
   insert_navbar(html_lines, user)
   html_lines.append(f"\n\n\t\t<!-- END NOTIFICATIONS FOR {user.upper()} -->\n")
   

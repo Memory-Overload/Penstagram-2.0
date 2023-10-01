@@ -33,7 +33,8 @@ def insert_header(html_lines: list[str], link: str, logo_link: str):
   """Inserts a header containing the Pesntagram 2.0 logo at the top of the page.
     ### Params
     - `html_lines` is the array that will be written to the final html file
-    - `link` is the name of the page that pressig the logo should return to."""
+    - `link` is the name of the page being created.
+    - `logo_link` is the name of the page that pressig the logo should return to."""
   
   html_lines.append(f"""
     <a name="{link}" id="{link}" rel="nofollow"></a>
@@ -59,10 +60,12 @@ def insert_navbar(html_lines: list[str], user: str):
       </ul>
     </div>""")
 
-def create_profile(html_lines: list[str], username_of: dict, profiles_to_create, user: str, handle: str):
+def create_profile(html_lines: list[str], username_of: dict, profiles_to_create: dict, user: str, handle: str):
   """Creates a profile page for the given handle.
     ### Params
     - `html_lines` is the array that will be written to the final html file
+    - `username_of` is for seeing if the logged in user is the profile being viewed
+    - `profiles_to_create` is the dictionary containing every profile that needs ot be made for each user
     - `user` is the current logged in user profile.
     - `handle` is the account that the page is being created for."""
   display, location, date, bio, following, followers = profiles[handle]
@@ -97,7 +100,7 @@ def create_private_message(html_lines: list, profiles_to_create: dict,
   """Creates a series of private messages between two accounts.
     ### Params
     - `html_lines` is the array that will be written to the final HTML file.
-    - `prfolies_to_create` is a set of profiles. This is for if an account is tagged in a PM.
+    - `proflies_to_create` is a set of profiles. This is for if an account is tagged in a PM.
     - `user` is the current logged in user. They are on the right-hand side of the conversation.
     - `other_user` is the user on the left-hand side of the conversation.
     - `message_history` is a list of tuples. Each tuple contains a side and the message itself."""

@@ -1,6 +1,6 @@
 # Penstagram 2.0
 
-$$\text{\Large \textit{A fake social media app by MemoryOverload}}$$
+$$\text{\large \textit{A fake social media app by MemoryOverload}}$$
 
 ## What is Penstagram 2.0?
 Well, on *The Owl House*, Penstagram 2.0 (or .02, or no release suffix, depending on the episode) is a social media app on a person's scroll where the general populace of the Boiling Isles can share posts in the forms of text, picture, and video about their day-to-day life. Alongside public posts, users can also have private conversations between themself and another user.
