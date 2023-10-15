@@ -5,6 +5,7 @@
 # - Eda
 # - Raine
 # - Darius
+# Flesh out news and trending feeds
 # Make feeds for:
 # - Luz
 # - Amity
@@ -13,7 +14,6 @@
 # - Hunter
 # - Vee
 # - Masha
-# Create score generator for sports tab
 ###########################################
 
 import copy

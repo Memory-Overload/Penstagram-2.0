@@ -20,6 +20,10 @@ messages = {
         (1, "that'll be a funny story for when you have kids"),
         (0, "Oh... um... ok."),
         (1, "👍")
+      ],
+      "chilly.lily": [
+        (1, "<img class='pm_image' src='Darius-Penstagram.png'>"),
+        (1, "<img class='pm_image' src='https://raw.githubusercontent.com/Memory-Overload/Penstagram-2.0/main/Darius-Penstagram.png'>")
       ]
     },
   "darius":

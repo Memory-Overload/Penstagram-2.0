@@ -128,33 +128,6 @@ a.logo {
   color: #FFFFFF;
 }
 
-.page .blocked_account_warning {
-  padding: 30px;
-  margin: 20px 20px;
-  background-color: #FF0000;
-  color: #FFFFFF;
-}
-
-.page a.unblock {
-  background-color: #888888;
-  float: right;
-  margin: 10px;
-  padding: 10px;
-  text-align: center;
-  color: #FFFFFF;
-  border-radius: 15px;
-}
-
-.page a.remain_blocked {
-  background-color: #888888;
-  float: left;
-  margin: 10px;
-  padding: 10px;
-  text-align: center;
-  color: #FFFFFF;
-  border-radius: 15px;
-}
-
 .page .left_text {
   background-color: #c6c7cd;
   color: #000000;
@@ -179,6 +152,10 @@ a.logo {
   border-radius: 15px;
   position: relative;
   clear: both;
+}
+
+.page .pm_image {
+  width: 100%;
 }
 
 .hide {
