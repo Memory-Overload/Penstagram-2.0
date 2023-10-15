@@ -1,3 +1,5 @@
+from penstagram_sports import generate_games
+
 for_you = {
   "eda": [
     ["goodWitchLuzura", "7:53 AM", "sometimes you need to let out some stress by stomping a colonizer's face in."],
@@ -68,13 +70,7 @@ news = {
 }
 
 sports = {
-  "eda": [
-    ["EmeraldEntrails", "12:00 PM", "A beatdown in Bonesborough!<br/>Entrails win, 73-0 over the Gorgons"],
-  ],
-  "darius": [
-    ["EmeraldEntrails", "12:00 PM", "A beatdown in Bonesborough!<br/>Entrails win, 73-0 over the Gorgons"],
-  ],
-  "raine": [
-    ["EmeraldEntrails", "12:00 PM", "A beatdown in Bonesborough!<br/>Entrails win, 73-0 over the Gorgons"],
-  ],
+  "eda":    (games := generate_games()),
+  "darius": games,
+  "raine":  games,
 }

@@ -39,4 +39,12 @@ profiles = {
   "GlandusGazette": ["The Glandus Gazette", "Glandus High", "Awk. 2020", "Here", "18", "472"],
   "BINN": ["Boiling Isles News Network", "The Pulse of the Isles", "Awk. 2012", "Live News 24/7 on CB Channel 7", "23", "41k"],
   "PerryPorter": ["Perry Porter", "On The Scene", "Dis. 2014", "Reporter for @BINN", "209", "14k"],
+  "PainbowWarriors": ["Palm Stings Painbow Warriors", "The Stings", "Fea. 2017", "Taste the Painbow!", "961", "31k"],
+  "Ogres": ["Osville Ogres", "Osville", "Awk. 2017", "ogres.cb", "209", "14k"], 
+  "Wendigos": ["<i>Wendigang</i>", "Worldwide", "Fea. 2017", "Join the Wendi-Gang at wendigosgrudgby.cb", "349", "18k"],
+  "Banshees": ["Hexside Banshees", "The Pitch", "Dis. 2015", "Captain: @boss_cha", "209", "14k"],
+  "Gorgons": ["Glandus Gorgons", "The Winner's Circle", "Fea. 2017", "Stone-cold killers on the pitch.", "653", "6.5k"],
+  "GrenwitchGiants": ["The Grenwitch Giants Grudgby Club", "G-Town", "Jaw. 2016", "Official Penstagram account of the Grenwitch Giants Grudgby Club, est. 2016", "398", "5.2k"],
+  "Fairies": ["Home of the Skin-Eaters", "All Across the Titan", "Mow. 2018", "Kicking butt and stealing skin since 2018.", "142", "8.5k"],
+  "boss_cha": ["Boscha Riegel", "Living my best life", "Jaw. 2015", "Look good, feel good, play good | Captain of the @Banshees | Grudgby addict.", "65", "14k"],
 }

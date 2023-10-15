@@ -1,9 +1,19 @@
 ###########################################
-# TODO:                                   #
-# Finish filling feeds with data          #
-# Create score generator for sports tab   #
-# ~Make some fake DMs~                    #
-# Fix dms being broken                    #
+# check mark for copy-pasting: ✓
+# TODO:
+# More fake DMs
+# - Eda
+# - Raine
+# - Darius
+# Make feeds for:
+# - Luz
+# - Amity
+# - Gus
+# - Willow
+# - Hunter
+# - Vee
+# - Masha
+# Create score generator for sports tab
 ###########################################
 
 import copy
