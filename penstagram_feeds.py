@@ -93,6 +93,6 @@ feeds = {
     ["veeeeeee", "10:08 AM", "uh... however old you are + 1"],
     ["goodWitchLuzura", "10:09 AM", "(ㆆ_ㆆ) that's not an answer"],
     ["veeeeeee", "10:10 AM", "best you're getting lol."],
-    ["goodWitchLuzura", "10:13 AM", "<img src='images/secrets.gif' class='pm_image'>"],
+    ["goodWitchLuzura", "10:13 AM", "<img src='https://raw.githubusercontent.com/Memory-Overload/Penstagram-2.0/main/images/secrets.gif' class='pm_image'>"],
   ],
 }
