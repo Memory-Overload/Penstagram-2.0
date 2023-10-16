@@ -33,7 +33,7 @@ messages = {
         (0, "<img class='pm_image' src='https://raw.githubusercontent.com/Memory-Overload/Penstagram-2.0/main/images/the%20judge.JPG'>"),
         (0, "I found this one quite humorous."),
         (1, "i'm setting you up for another therapy session"),
-      ]
+      ],
     },
   "darius":
     {
@@ -42,7 +42,7 @@ messages = {
         (1, "totally"),
         (1, "I didn't know you did scaryoke, to be honest."),
         (0, "a man always has to have an air of mystery about him"),
-      ]
+      ],
     },
   "raine":
     {
@@ -54,12 +54,12 @@ messages = {
         (1, "Eda and I might have to drop by one of these days and pay you all a visit."),
         (0, "Well, if you do, please make sure that Edalyn pays for her admission."),
         (1, "I'll be sure to keep an eye on her."),
-      ]
+      ],
     },
     "luz": {
       "WitchChick128": [
         (1, "Hey, batata! :)"),
         (0, "Hey yourself lol ^_^"),
-      ]
+      ],
     }
 }

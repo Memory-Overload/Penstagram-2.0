@@ -5,9 +5,9 @@
 # - Eda
 # - Raine
 # - Darius
+# - Luz
 # Flesh out news and trending feeds
 # Make feeds for:
-# - Luz
 # - Amity
 # - Gus
 # - Willow
