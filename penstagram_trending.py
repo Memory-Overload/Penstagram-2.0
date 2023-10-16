@@ -35,6 +35,9 @@ for_you = {
     ["chilly.lily", "2:00 9M", "New Ink Reviews w/ Lily episode out! This vid we go over a new edible ink crafted by Zevon and Sons. (Spolier: It tastes like goreberries. 3/10 Would not recommend.)"],
     ["goodWitchLuzura", "7:14 PM", "@KINGOFDEMONS and I just found another one of his glyphs! \(^o^)/"],
     ["goo-daddy", "8:46 PM", "This hack is adorably inept with anything not related to Abominations."],
+  ],
+  "luz": [
+    ["WitchChick128", "7:11 AM", "the bird tube is back. i will punch it in the face i swear to titan."]
   ]
 }
 
@@ -52,6 +55,9 @@ trending = {
     ["Hexside", "12:01 PM", "Anyways, since I'm getting fired, the secret to Bump's hair routine is that he tfwudvigoupiqwenvpblukrvkyi;o"],
     ["Hexside", "12:02 PM", "Please disregard the four previous posts. - HB"],
   ],
+  "luz": [
+    ["Hexside", "9:00 AM", "Welcome back, Hexoleos!"]
+  ],
 }
 
 news = {
@@ -67,10 +73,14 @@ news = {
   "raine": [
     ["TheDailyDirt", "12:00 PM", "Giraffes: Menace or Misunderstood? Read the new article by Hingle McCringleberry about everyone's favorite child-eating demon."],
   ],
+  "luz": [
+    ["HexsideFreePress", "12:35 PM", "The Choosy Hat has broken free. Students and faculty are advised to stay away from the Paranormatorium until further notice."]
+  ],
 }
 
 sports = {
   "eda":    (games := generate_games()),
   "darius": games,
   "raine":  games,
+  "luz": games,
 }

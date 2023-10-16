@@ -11,6 +11,10 @@
   border-radius: 25px;
 }
 
+.disclaimer {
+  font-size: 0px;
+}
+
 .page div {
   background-color: #FFFFFF;
 }
@@ -156,6 +160,7 @@ a.logo {
 
 .page .pm_image {
   width: 100%;
+  border-radius: 5px;
 }
 
 .hide {

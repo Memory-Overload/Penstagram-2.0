@@ -39,7 +39,8 @@ html_lines = ["""<html>
 username_of = {
   "eda": "BADGIRLCOVEN",
   "darius": "goo-daddy",
-  "raine": "rainey.day"
+  "raine": "rainey.day",
+  "luz": "goodWitchLuzura"
 }
 # endregion: initialize html, create head, and start body
 

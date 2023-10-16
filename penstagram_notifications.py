@@ -11,4 +11,9 @@ notifications = {
   "raine": [
     "",
   ],
+  "luz": [
+    "Thanks to your part in saving the Boiling Isles, Penstagram, Inc. is offering you free Penstagram Premium for life! (Please don't kill us.)",
+    "@BADGIRLCOVEN, @KINGOFDEMONS, @Hello_willow, and 98k others followed you.",
+    "@WitchChick128 mentioned you:<br>\"Hey, @goodWitchLuzura! Welcome to Penstagram, batata. :)\""
+  ],
 }

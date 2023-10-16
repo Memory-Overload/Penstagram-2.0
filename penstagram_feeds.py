@@ -82,5 +82,17 @@ feeds = {
     ["BADGIRLCOVEN", "12:25 AM", "Yeah, well that's the way the spookie crumbles sometimes."],
     ["BADGIRLCOVEN", "2:17 AM", "WHERE THE <i><b>HOOT</b></i> DID MY APPLE BLOOD GO?!"],
     ["steve", "3:00 AM", "steve."],
-  ]
+  ],
+  "luz": [
+    ["goodWitchLuzura", "10:03 AM", "Good morning, Penstagram! (*^▽^*)"],
+    ["veeeeeee", "10:05 AM", "yo yo welcome to Pensta, sis."],
+    ["goodWitchLuzura", "10:06 AM", "how did you get a scroll before me lol"],
+    ["veeeeeee", "10:06 AM", "big sister magic. don't question it."],
+    ["goodWitchLuzura", "10:07 AM", "pretty sure I'm older but ok"],
+    ["goodWitchLuzura", "10:07 AM", "hold on... how old are you, @veeeeeee?"],
+    ["veeeeeee", "10:08 AM", "uh... however old you are + 1"],
+    ["goodWitchLuzura", "10:09 AM", "(ㆆ_ㆆ) that's not an answer"],
+    ["veeeeeee", "10:10 AM", "best you're getting lol."],
+    ["goodWitchLuzura", "10:13 AM", "<img src='images/secrets.gif' class='pm_image'>"],
+  ],
 }
