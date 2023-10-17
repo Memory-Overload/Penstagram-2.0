@@ -5,7 +5,7 @@ $$\text{\large \textit{A fake social media app by MemoryOverload}}$$
 ## What is Penstagram 2.0?
 Well, on *The Owl House*, Penstagram 2.0 (or .02, or no release suffix, depending on the episode) is a social media app on a person's scroll where the general populace of the Boiling Isles can share posts in the forms of text, picture, and video about their day-to-day life. Alongside public posts, users can also have private conversations between themself and another user.
 
-![Darius' Penstagram, showing a post made by Raine Whispers (@rainey.day).](Darius-Penstagram.png)
+![Darius' Penstagram, showing a post made by Raine Whispers (@rainey.day).](images\Darius-Penstagram.png)
 
 $$\text{\small Photo: \textit{The Owl House}, "Any Sport In A Storm"}$$
 
@@ -169,7 +169,7 @@ This way, only paragraphs with class "one" and "two" are edited and any other pa
 
 Finally we get our desired result of this lovely eyesore:
 
-![The first paragraph has a blue background, the space in between is red, and the second paragraph has a green background.](CSS-Example-2.jpg)
+![The first paragraph has a blue background, the space in between is red, and the second paragraph has a green background.](images\CSS-Example-2.jpg)
 
 (Sorry for the poor image quality.)
 
