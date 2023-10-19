@@ -21,7 +21,6 @@ import copy
 from penstagram_feeds import *
 from penstagram_helpers import *
 from penstagram_messages import *
-from penstagram_notifications import *
 from penstagram_trending import *
 
 # region: initialize html, create head, and start body
