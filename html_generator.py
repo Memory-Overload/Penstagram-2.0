@@ -17,8 +17,6 @@
 # Autmoate updating the chapter on AO3 (???)
 ###########################################
 
-import copy
-
 from penstagram_feeds import feeds
 from penstagram_helpers import create_post, create_private_message, create_profile, insert_header, insert_navbar, replace_tags
 from penstagram_messages import messages, notifications
@@ -140,7 +138,7 @@ for user in username_of:
 # region: generate profiles
 for user in username_of:
   html_lines.append(f"\n\n\t\t<!-- USER PROFILES FOR {user.upper()} -->\n")
-  current_profiles = copy.deepcopy(profiles_to_create)
+  current_profiles = profiles_to_create.copy()
   for handle in current_profiles[user]:
     if handle:
       try:
