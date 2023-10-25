@@ -14,16 +14,24 @@
 # - Hunter
 # - Vee
 # - Masha
+# Autmoate updating the chapter on AO3 (???)
 ###########################################
 
 import copy
 
-from penstagram_feeds import *
-from penstagram_helpers import *
-from penstagram_messages import *
-from penstagram_trending import *
+from penstagram_feeds import feeds
+from penstagram_helpers import create_post, create_private_message, create_profile, insert_header, insert_navbar, replace_tags
+from penstagram_messages import messages, notifications
+from penstagram_trending import news, sports, for_you, trending
 
-# region: initialize html, create head, and start body
+username_of = {
+  "eda": "BADGIRLCOVEN",
+  "darius": "goo-daddy",
+  "raine": "rainey.day",
+  "luz": "goodWitchLuzura"
+}
+
+# region: initialize html, create head, and start body w/ Custom Style disclaimer
 html_lines = ["""<html>
 
 <head>
@@ -34,13 +42,6 @@ html_lines = ["""<html>
   <p class="disclaimer"><b>Note from the <i>Penstagram 2.0</i> Development Team: For the best user experience, 
   it is highly recommended that you turn on "Show Creator's Style".</b></p>
 """]
-
-username_of = {
-  "eda": "BADGIRLCOVEN",
-  "darius": "goo-daddy",
-  "raine": "rainey.day",
-  "luz": "goodWitchLuzura"
-}
 # endregion: initialize html, create head, and start body
 
 # region: user select page
