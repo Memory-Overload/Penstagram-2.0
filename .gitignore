@@ -1,3 +1,6 @@
 # Don't upload pycache lol
 \__pycache__
+# You aren't getting my login info.
 .env
+# You don't need this.
+update_chapter.py
