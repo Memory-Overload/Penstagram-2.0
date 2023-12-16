@@ -33,7 +33,7 @@ username_of = {
 }
 
 
-def init_html(html_lines: list[str]):
+def start_html(html_lines: list[str]):
     html_lines.append("""<html>
 
 <head>
@@ -60,6 +60,13 @@ def init_html(html_lines: list[str]):
     <div>
       <ul class="bar"></ul>
     </div>""")
+
+
+def close_html(html_lines):
+    html_lines.append("""
+</body>
+
+</html>""")
 
 
 profiles_to_create: dict[str:set] = dict()
@@ -174,17 +181,14 @@ def write_to_html(html_lines):
 
 def main():
     html_lines = []
-    init_html(html_lines)
+    start_html(html_lines)
     for user in username_of:
         generate_feed(html_lines, user)
         generate_sections(html_lines, user)
         generate_notifications(html_lines, user)
         generate_messages(html_lines, user)
         generate_profiles(html_lines, user)
-    html_lines.append("""
-</body>
-
-</html>""")
+    close_html(html_lines)
     write_to_html(html_lines)
 
 
